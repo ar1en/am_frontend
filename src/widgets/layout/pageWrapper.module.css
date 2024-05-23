@@ -1,0 +1,9 @@
+.content {
+    margin-left: 48px;
+    transition: margin-left 100ms;
+}
+
+.contentCollapsed {
+    margin-left: 210px;
+    transition: margin-left 100ms;
+}

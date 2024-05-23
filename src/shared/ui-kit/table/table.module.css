@@ -1,0 +1,36 @@
+/*.column_resize_table th::before {*/
+/*    content: '';*/
+/*    display: block;*/
+/*    width: var(--column_resize_before_width);*/
+/*}*/
+
+.textEdit {
+    /*min-height:40px;*/
+    /*height:auto;*/
+    /*min-height: 5em;*/
+    overflow: auto;
+    width: 100%;
+    overflow-wrap: break-word;
+}
+
+.filterBox {
+    width: 100%;
+}
+
+.headCaption {
+    font-size: 13px;
+    display: block;
+}
+
+.headCaption :hover {
+    background-color: #87CEFA;
+}
+
+.fixedHead {
+    position: sticky;
+    top: 60px;
+    z-index: 2;
+}
+.smallIcon {
+    font-size: 14px;
+}

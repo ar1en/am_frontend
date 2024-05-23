@@ -1,0 +1,51 @@
+{
+  "header": [
+    { "key": "id",
+      "name": "ID",
+      "type": "unchangeable"},
+
+    { "key": "sasId",
+      "name": "ID в SAS",
+      "type": "text"},
+
+    { "key": "bpmId",
+      "name": "Код БП",
+      "type": "text" },
+
+    { "key": "name",
+      "name": "Имя",
+      "type": "text" },
+
+    { "key": "code",
+      "name": "Код",
+      "type": "dictionary" },
+
+    { "key": "validFrom",
+      "name": "Действительно с",
+      "type": "date" },
+
+    { "key": "validUntil",
+      "name": "Действительно до",
+      "type": "date" },
+
+    { "key": "author",
+      "name": "Автор",
+      "type": "dictionary" }
+  ],
+  "data": [
+    {
+      "id": "1",
+      "parentProcess": "",
+      "path": "",
+      "level": "",
+      "type": "",
+      "sasId": "",
+      "bpmId": "",
+      "name": "Получение данных",
+      "code": "",
+      "validFrom": "",
+      "validUntil": "",
+      "author": ""
+    }
+  ]
+}
