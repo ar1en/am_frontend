@@ -1,13 +1,13 @@
 import {Component} from "react";
 import {useStore} from "../../shared/store"
 
-class ErrorBoundary extends Component {
-    constructor(props) {
-        super(props);
-        //const {addError} = useStore().error;
-    }
-
+class ErrorBoundaryBase extends Component {
     componentDidCatch(error, info) {
-        //this.addError(error);
+        this.props.addError(error);
     }
 }
+
+const ErrorBoundary = (props) => {
+    const {addError} = useStore().error;
+    return <ErrorBoundaryBase {...props} addError={addError}/>
+};
